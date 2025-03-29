@@ -1,0 +1,31 @@
+h1 {
+    color: rgb(7,80,7);
+    font-family: fantasy;
+}
+
+p {
+    color: rgb(137, 239, 137);
+    font-size: 17px;
+    width: 50%;
+    height: 10vh;
+}
+
+.my-class {
+    color: rgb(5, 47, 4);
+    font-size: 37px;
+}
+
+.two{
+    color: red;
+    font-size: 29px;
+}
+
+#one{
+    color: blueviolet;
+    font-family: fantasy;
+    /*padding: 10px;*/
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+}

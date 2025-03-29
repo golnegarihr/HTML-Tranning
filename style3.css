@@ -1,0 +1,153 @@
+#margin{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /*gin: top 30px;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-bottom: 45px;*/
+    margin: 30px 30px 45px 50px ;
+}
+#border{
+    width: 200px;
+    height: 200px;
+    color: aliceblue;
+    background-color: blue;
+    border-top: 15px solid #010120;
+    border-right: 20px solid #313150;
+    border-bottom: 25px solid #0a5b9e;
+    border-left: 30px solid #05c7ad ;
+    /*border: 40px solid #010120;*/
+}
+p{
+    background-color:#010120;
+    color: aliceblue;
+    display: inline;
+}
+
+a{
+    background-color: #010120;
+    color: antiquewhite;
+    display: block;
+}
+.hide{
+  display: none;  
+}
+
+.Container{
+    background-color:#010120  ;
+    color: aliceblue;
+    display: flex;
+}
+
+.item{
+    background-color:antiquewhite;
+    color: #010120;
+    font-size: 25px;
+    margin: 5px;
+    padding: 20px;
+}
+.Container2{
+   background-color:#010120;
+   color:aliceblue; 
+   display: grid;
+}
+.item2{
+    background-color: aliceblue;
+    color:#010120;
+    font-size: 30px;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    display: flex;
+    justify-content:center;
+}
+.Mycontainer{
+    background-color: #010120;
+    color: aliceblue;
+    height:200px;
+    /*display: flex;*/
+    /*flex-direction: row-reverse;*/
+    /*flex-direction: column-reverse;*/
+    /*flex-direction: row ;
+    flex-wrap: wrap ;*/
+    display: flex;
+    /*flex-direction: row;*/
+    /*justify-content: flex-start ;*/
+    /*justify-content: center;*/
+    /*justify-content: space-between;*/
+    /*justify-content: space-around;*/
+    /*justify-content: flex-start;*/
+    /*align-items: baseline ;*/
+    /*align-content: center;*/
+    /*align-content: space-around ;
+    flex-wrap: wrap;*/
+    flex-direction: row;
+    align-items: flex-start;
+}
+.Myitem{
+    background-color: aliceblue;
+    color: #010120;
+    font-size: 40px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.Myitem2{
+    background-color: aliceblue;
+    color: #010120;
+    font-size: 40px;
+    margin: 10px;
+    padding: 20px;
+    flex-basis: 70px;
+    align-self: center;
+}  
+
+.Myitem3{
+    background-color: aliceblue;
+    color: #010120;
+    font-size: 40px;
+    margin: 10px;
+    padding: 20px;
+    flex-basis: 5px;
+    align-self: flex-end;
+}  
+
+/*.Myitem5{
+    background-color: aliceblue;
+    color: #010120;
+    font-size: 40px;
+    margin: 10px;
+    padding: 20px;
+    flex-grow: 2;
+    flex-shrink: 0;
+} */ 
+.Mycontainer3{
+    background-color:#010120;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+} 
+
+.order1{
+    order: 5;
+}
+
+.order2{
+    order: 4;
+}
+
+.order3{
+    order: 3;
+}
+
+.order4{
+    order: 2;
+}
+
+.order5{
+    order: 1;
+}
